@@ -52,6 +52,22 @@ a:active {
   color: #1098ad9a;
 }
 
+.related {
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+.related h4 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: larger;
+}
+
 .related a:link {
+  font-weight: bold;
+}
+.related p {
   font-weight: normal;
 }
