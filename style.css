@@ -1,0 +1,57 @@
+/* Font-Family */
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #1098ad;
+}
+
+header {
+  background-color: #cfcfcf;
+}
+
+header h1 {
+  font-size: x-large;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+p {
+  font-size: large;
+}
+li {
+  font-size: large;
+}
+li:first-child {
+  font-weight: bold;
+}
+
+/* LVHA */
+a:link {
+  font-size: large;
+  text-decoration: none;
+  color: #1098ad;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  font-weight: bold;
+}
+a:active {
+  color: #1098ad9a;
+}
+
+.related a:link {
+  font-weight: normal;
+}
